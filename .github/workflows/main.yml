@@ -27,7 +27,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/jc21/nginx-proxy-manager:2.12.1 docker://registry.cn-beijing.aliyuncs.com/ladsn/nginx-proxy-manager:2.12.1
+         skopeo copy docker://docker.io/chishin/nginx-proxy-manager-zh:release docker://registry.cn-beijing.aliyuncs.com/ladsn/nginx-proxy-manager-zh:release
          
          
          
