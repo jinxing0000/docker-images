@@ -27,7 +27,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/chishin/nginx-proxy-manager-zh:release docker://registry.cn-beijing.aliyuncs.com/ladsn/nginx-proxy-manager-zh:release
+         skopeo copy docker://docker.io/nacos/nacos-server:latest docker://registry.cn-beijing.aliyuncs.com/ladsn/nacos-server:latest
          
          
          
